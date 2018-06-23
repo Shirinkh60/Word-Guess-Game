@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Hangman Game</title>
+	   
+	<!-- Bootstrap compiled and minified CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+ <header>
+	 <div>
+		 <h1 class ="headername">Let's Play This Fruity Game</h1>
+	 </div>
+ </header>
+
+<div class="main">
+		
+		<div id="game-section">
+				<p>Press any key to get started!</p>
+
+                <h2 id="music"></h2>
+			   <div id="fruitDiv"><img src="assets/images/fruit.jpg" alt="..">
+				</div>
+				<div id="current-word-section">
+					<h3 class="section-title">Wins :</h3>
+					<div id="wins"></div>
+				</div>
+				<div id="current-word-section">
+					<h3 class="section-title">Current Word :</h3>
+					<div id="current-word"></div>
+				</div>
+				<div id="guesses-remaining-section">
+					<h3 class="section-title">Number of Guesses Remaining :</h3>
+					<div id="guesses-remaining"></div>
+				</div>
+				<div id="guessed-letters-section">
+					<h3 class="section-title">Letters Already Guessed</h3>
+					<div id="guessed-letters"></div>
+				</div>
+			</div>
+			</div>
+
+
+</div> 
+
+
+
+
+<!--•	PseudoCode: Hangman
+•	Computer presents word with spaces in place of the letters.
+•	Player guesses letters
+•	When they answer correctly (or when they guess one of the letters) the computer fills in the corresponding letter
+•	When they answer incorrectly, the computer logs the wrong letter on the screen so the user can see it, and then takes away one of their chances
+•	The player gets 15 chances/guesses to get the word correct
+•	The title of the page should give a hint as to the type of word the player is guessing i.e. rock n roll bands etc.-->
+
+
+
+<script src="./assets/javascript/game.js"></script>
+
+  </div>
+</div>
+
+</body>
+</html>
